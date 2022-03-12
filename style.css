@@ -40,7 +40,7 @@ body{
   } 
 
   ul {
-    padding: 0px;
+    padding-left: 16px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -48,7 +48,11 @@ body{
   }
   
   img {
-      height: 100px;
-      width: auto;
+    height: 100px;
+    width: auto;
   }
   
+  .intro {
+    background-image: url("./img/background-1.jpg");
+    height: 500px
+  }
