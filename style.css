@@ -60,18 +60,24 @@ body{
     background-size: cover;
     height: 450px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .intro-top {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
   }
 
   .intro-bottom {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    margin: -24px 8px 10px 8px;
   }
 
+  .attribution {
+    color: white;
+    font-size: 16px;
+  }
