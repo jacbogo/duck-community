@@ -58,5 +58,20 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 450px
+    height: 450px;
+    display: flex;
+    flex-direction: row;
   }
+  
+  .intro-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
