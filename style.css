@@ -71,10 +71,10 @@ body{
     align-items: center;
   }
   
-  .intro-top {
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
+  .intro-box {
+    height: 300px;
+    width: 75%;
+    background: rgba(0, 0, 0, 0.2);
   }
 
   .intro-bottom {
