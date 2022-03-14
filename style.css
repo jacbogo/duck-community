@@ -76,7 +76,7 @@ body{
     height: 300px;
     min-width: 750px;
     width: 75%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -100,6 +100,7 @@ body{
       justify-content: center;
       flex-wrap: wrap;
       width: 300px;
+      row-gap: 20px;
   }
 
   img.main-image {
@@ -110,4 +111,19 @@ body{
 
   button {
       width: 6em;
+  }
+
+  .left-intro.quack {
+    display: flex;
+    justify-content: center;
+  }
+
+  .webpage-name,
+  .info {
+    color: white;
+  }
+
+  .webpage-name {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
   }
