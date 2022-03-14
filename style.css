@@ -53,28 +53,39 @@ body{
   }
   
   .intro {
-    background: url("./img/background-1.jpg") no-repeat center center fixed;
-    /* -webkit-background-size: cover;
+    background: url("./img/background-1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover; 
     -moz-background-size: cover;
-    -o-background-size: cover; */
+    -o-background-size: cover;
     /* background-size: cover;
-    background-position: center;
-    min-height: 450px; */
-    height: 450px;
-    background-repeat: no-repeat;
+    background-position: center; */
+    /* background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
+    height: 450px;
+    width: auto;
   }
   
   .intro-box {
     height: 300px;
+    min-width: 750px;
     width: 75%;
     background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
   }
 
   .intro-bottom {
@@ -86,4 +97,14 @@ body{
   .attribution {
     color: white;
     font-size: 16px;
+  }
+
+  .left-intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  button {
+      width: 6em;
   }
