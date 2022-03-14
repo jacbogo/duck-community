@@ -126,7 +126,7 @@ body{
 
   .webpage-name,
   .team-header,
-  .about {
+  .about-header {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -165,4 +165,21 @@ body{
     display: flex;
     flex-shrink: 0;
     margin-bottom: 8px;
+  }
+
+  .about {
+    background: url("./img/background-2.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    height: 450px;
+    min-width: 800px;
   }
