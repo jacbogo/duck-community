@@ -99,7 +99,13 @@ body{
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;
-      width: 200px;
+      width: 300px;
+  }
+
+  img.main-image {
+    height: 200px;
+    width: auto;
+    border: 3px solid white
   }
 
   button {
