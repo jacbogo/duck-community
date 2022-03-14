@@ -55,11 +55,11 @@ body{
   
   .intro {
     background: url("./img/background-1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover; 
+    /* -webkit-background-size: cover; 
     -moz-background-size: cover;
-    -o-background-size: cover;
-    /* background-size: cover;
-    background-position: center; */
+    -o-background-size: cover; */
+    background-size: cover;
+    background-position: center;
     /* background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
@@ -139,7 +139,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 24px;
     margin-top: -8px;
     flex-wrap: nowrap;
   }
@@ -158,9 +158,11 @@ body{
   .duck-img {
     width: 150px;
     height: 180px;
-    border: 3px solid black;
-    object-fit: contain;
+    border: 3px solid white;
+    border-radius: 25px;
+    object-fit: cover;
     overflow: hidden;
     display: flex;
     flex-shrink: 0;
+    margin-bottom: 8px;
   }
