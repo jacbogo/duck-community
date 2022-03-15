@@ -10,7 +10,8 @@ body{
   }  
   
   .header,
-  .team {
+  .team,
+  .contact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -126,7 +127,8 @@ body{
 
   .webpage-name,
   .team-header,
-  .about-header {
+  .about-header,
+  .contact-title {
     font-size: 34px;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -206,4 +208,28 @@ body{
     display: flex;
     justify-content: flex-end;
     margin: -22px 12px 4px 8px;
+  }
+
+  .contact {
+    height: 300px;
+    justify-content: center;
+    gap: 110px;
+  }
+
+  .contact-title,
+  .contact-info {
+    color: rgb(24, 87, 24);
+    width: 450px;
+  }
+
+  .contact-info {
+    font-size: 22px;
+    margin-top: 14px;
+  }
+
+  .footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
