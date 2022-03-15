@@ -132,7 +132,7 @@ body{
   }
 
   .team {
-    height: 300px;
+    height: 350px;
     width: auto;
     min-width: 750px;
     display: flex;
@@ -171,10 +171,6 @@ body{
     background: url("./img/background-2.jpg") no-repeat center center fixed; 
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center top;
-    background-attachment: fixed; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,4 +178,26 @@ body{
     flex-shrink: 0;
     height: 450px;
     min-width: 800px;
+  }
+
+  .about-box {
+    height: 300px;
+    min-width: 750px;
+    width: 75%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+
+  .about-header,
+  .about-info {
+    color: white;
+  }
+
+  .about-info {
+    width: 700px;
+    font-size: 20px;
   }
